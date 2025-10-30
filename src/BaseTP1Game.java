@@ -42,13 +42,15 @@ public class BaseTP1Game {
 						targetNumber = Math.floor(Math.random() * 100)  ;
 						continue;						
 					} else {
-						System.exit(0);
+						scan.close();
+						System.exit(0);						
 					}
 				}
 			}
 			
 			
 		} else {
+			scan.close();
 			System.exit(0);
 		}
 		
